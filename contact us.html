@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contact</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+
+</head>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color:rgb(27, 19, 19);
+        }
+        .contactform{                           
+            background: transparent;
+            color: rgb(59, 244, 182);
+            text-transform: capitalize;
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+        button{
+            height: 40px;
+            width: 100%;
+            color: brown;
+            background-color:white;
+            
+            font-size: 30px;
+        }
+        /* button::before{
+            height: 100%;
+            width: 80%;
+        } */
+option{
+            color: red;
+        }
+
+    </style>
+<body>
+    <div class="contactform">
+        <div class="heading" style="font-size: 100px;" id="head"  onclick="changecolor1(this)">
+    
+            <h1>contact us </h1>
+        </div>
+        <form>
+            <label >Name</label>
+            <input type="text" placeholder="enter your name">
+<br>
+            <label >Email</label>
+            <input type="email" placeholder=" enter email id ">
+<br>
+            <label >Phone</label>
+            <input type="phone" placeholder="enter phone number">
+<br>
+            <label >City</label>
+            <input type="text" placeholder=" City">
+            <br>
+            <label >State</label>
+            <select id="inputSta >Choose...</option>
+                <option style="color:red;">uttar pradesh</option>
+                <option>delhi</option>
+                <option>uttrakhand</option>
+                <option>haryana</option>
+                <option>himachal pradesh</option>
+            </select>
+            <br>
+            <label for="checkbox">   Agree terms and conditions now </label>
+            <input type="checkbox" placeholder="...">  
+            <br>
+            <button  id="Button"   onclick="myfunction()"> submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+    <title>portfolio website </title>
+</head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+    font-family:cursive ;
+    background-color: #a5aba8;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    color: aliceblue;
+    padding: 10px 300px;
+    margin-block: -26px 100px;
+}
+.navbar ul li{
+    padding: -4px 37px;
+    list-style: none;
+}
+.name{
+    padding: 3px 5px;
+    margin-top:3px ;
+    font-size: 1.5em;
+    color: rgb(96, 78, 233);
+    font-family: fantasy;  
+    display: unset;
+    /* border: 4px solid red; */
+
+}
+.image{
+    display: grid;
+    justify-items: center;
+    /* border: 2px solid black; */
+    border-radius: 150px;
+    color: #7a0e1f;
+  
+}
+
+
+</style>
+<body  >
+    <div class="name" id="name"> Divam Sharma</div>
+    <div class="navbar">
+        <ul>
+            <!-- <li><h1> DIVAM Sharma</h1></li> -->
+            <li>🏠home</li>
+            <li><a href="project.html">🎦projects</a></li>
+            <li><a href="contact us.html">📞contact us</a> </li>
+        </ul>
+    </div>
+    <div>
+
+        <!-- image in middle -->
+            <div class="image" id="col" onclick="changecolor(this)">
+            <img src="DIVAM.jpeg" width="150px" alt="">      <h1>Divam Sharma</h1>
+        <h2>B.TECH (CSE)</h2>
+        <hr>
+        <h2> MEERUT INSTITUTE OF ENGNEERING AND TECHNOLOGY</h2>
+    </div>
+    <br>
+<hr>
+<!-- information in middle -->
+<br>
+            <div class="bio" onclick="myfunction()">
+            <h1>INTRO ⏭️</h1>
+            <p><h3>
+                I am Divam sharma from mawana and i am currently study in meerut institute of engneering and technology, meerut.
+                <br>
+                i am doing b.tech from cse branch and i like to watch advantures movie 🎥🍿and also playing cricket🏏.
+                <br>
+                i learn c ,java,html,css,basic of python.
+                <br>
+                and always in learning mood 😎.
+
+</h3>
+            </p>
+        </div>
+<hr>
+    <!-- footer  -->
+    <h1>contact me 👉</h1>
+    <div class="end" onfocus="getmove()">
+    
+        <!-- <img src="logo.jpg" alt="">
+        -->
+        <br>
+        <table>
+            <tr>
+                <td>contact☎️ -></td>
+                <th> 95xxxxxxxx</th>
+            
+            </tr>
+            <tr>
+            <td>e-mail id📧-></td>
+            <th>divamsharma21@gmail.com</th>
+            </tr>
+        </table>
+
+        </div>
+
+
+
+
+        <button id="button" onforminput="changetext(this)">CLICK THE BUTTON</button>
+    
+        <script src="script.js"></script>
+</body>
+</html>
