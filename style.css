@@ -27,14 +27,14 @@
 
 @media(max-width:500px) {
     *{
-        background-color: antiquewhite;
+       background-color: white;
     }
     
 }
 @media  (max-width:600px) {
     .image{
         
-        color: aqua;
+       color: rgb(181, 95, 135);
         border-radius: 3px;
     }
     .image h2 img{
